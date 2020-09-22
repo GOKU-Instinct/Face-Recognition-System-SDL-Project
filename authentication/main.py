@@ -6,5 +6,13 @@ app = Flask(__name__)
 def index():
     return render_template('login.html')
 
+@app.route('/profile')
+def success():
+    return render_template('profile.html')
+
+@app.route('/new')
+def newuser():
+    return render_template('register.html')
+
 if __name__ == '__main__':
     app.run(debug = True)
