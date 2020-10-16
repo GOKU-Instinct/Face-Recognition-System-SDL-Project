@@ -16,7 +16,7 @@ listOfFaces = []
 for x,y,w,h in faces:
     x = img[y:y+h, x:x+w]
     x = cv2.resize(x, (48, 48))
-    listOfFaces.append(x);
+    listOfFaces.append(x)
     cv2.imshow("faces", x)
     cv2.waitKey()
     cv2.destroyAllWindows()
