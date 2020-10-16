@@ -44,7 +44,7 @@ def new_user():
             email = request.form['two']
             password = request.form['three']
             cur = db.connection.cursor(MySQLdb.cursors.DictCursor)
-            cur.execute("INSERT INTO sdlproject.logininfo(name, password, email) values (%s, %s, %s)",
+            cur.execute("insert into sdlproject.logininfo(name, password, email) values (%s, %s, %s)",
                         (username, password, email))
             db.connection.commit()
             return redirect(url_for('index'))
