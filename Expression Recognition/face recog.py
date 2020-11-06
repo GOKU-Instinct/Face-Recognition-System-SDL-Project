@@ -120,7 +120,7 @@ while(True):
                 #find max indexed array 0: angry, 1:disgust, 2:fear, 3:happy, 4:sad, 5:surprise, 6:neutral 
                 max_index = np.argmax(predictions[0])
                 emotion = emotions[max_index]
-                # val = predictions[0][3]
+                val = predictions[0][3]
                 # print(val)
                 data = marshal.dumps(face_encoding)
                 # print(data)
