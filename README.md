@@ -1,13 +1,14 @@
 # Face-Recognition-System-SDL-Project
-Team Name          Team Members
 
-    D              Diwakar Singh
+Team Name        Team Members
+
+    D        Diwakar Singh
     
-    A              Akshit Mamgain
+    A        Akshit Mamgain
     
-    D              Diwaker Singh
+    D        Diwaker Singh
     
-    S              Shreya Dubey
+    S        Shreya Dubey
 
 
 # Realtime Customer Review system Using Facial Expression Recognition
