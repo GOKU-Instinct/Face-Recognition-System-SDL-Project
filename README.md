@@ -1,7 +1,16 @@
 # Face-Recognition-System-SDL-Project
+Team Name          Team Members
+
+    D              Diwakar Singh
+    
+    A              Akshit Mamgain
+    
+    D              Diwaker Singh
+    
+    S              Shreya Dubey
 
 
-# Realtime Customer Review system Using Facial Exppression Recognition
+# Realtime Customer Review system Using Facial Expression Recognition
 
 The purpose of this project is to help various restaurants, malls and other shops to get a real time review of their services from their customers by reading their facial expression when they enter and are about to exit the store using CCTV cameras, so that they can improve their services to its maximum extent and offer their customers an even  greater experience in the future.
 
